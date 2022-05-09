@@ -48,7 +48,7 @@ public class TestRegister {
     public void testRegister() throws InterruptedException {
         // Making sure a user is created and can log out after registration
         // Providing unique username and strong password
-        DashboardPage dashboardPage = registerPage.register("newUsebgasdras5daqas1342", "reallyStrongPass432");
+        DashboardPage dashboardPage = registerPage.register("newSeleniumUserTest2022", "reallyStrongPass5432");
         Thread.sleep(5000);
         dashboardPage.logout();
         
